@@ -1,0 +1,22 @@
+{
+  "name": "discord-welcomer",
+  "version": "1.0.0",
+  "description": "Discord Welcomer Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/fauzan121002/discord-welcomer"
+  },
+  "keywords": [
+    "Welcomer",
+    "Bot"
+  ],
+  "author": "fauzan121002",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
