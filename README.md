@@ -27,6 +27,7 @@ message is an array , every index means a new line of the message.
         "welcome to My Server !",
         ""
     ],
+    "thumbnail": "",
     "image": "https://media.discordapp.net/attachments/779433905349853204/779434982711623710/image1.gif",
     "channelId": "<Welcome Channel ID>"
 }
