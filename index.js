@@ -16,7 +16,7 @@ client.on("guildMemberAdd", (member) => {
   .addField(`Hello, welcome to chill <@${member.user.id}>!`,Message.message.join("\n"))
   .setImage(Message.image)
 
-  channel.find(channel => channel.id === "763345693468786700").send(embed);
+  channel.find(channel => channel.id === Message.channelId).send(embed);
 });
 
 client.login(token);
